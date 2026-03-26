@@ -113,3 +113,66 @@ button {
 button:hover {
     background: #1e3c72;
 }
+
+
+/* Chatbot Button */
+#chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2a5298;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Chatbox */
+#chatbot-box {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.chat-header {
+    background: #1e3c72;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#chat-messages {
+    height: 250px;
+    overflow-y: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.chat-input button {
+    padding: 10px;
+    border: none;
+    background: #2a5298;
+    color: white;
+}
