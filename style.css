@@ -54,3 +54,13 @@ footer {
     color: white;
     margin-top: 20px;
 }
+section {
+    padding: 40px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    line-height: 1.6;
+}
